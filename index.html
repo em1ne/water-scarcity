@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>water </title>
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <div class="main">
+    <div class="row">
+      <div class="col1">
+
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn"></div>
+            <button type="button" class="toggle-btn" onclick="login()">Log In </button>
+            <button type="button" class="toggle-btn" onclick="register()">Register</button>
+          </div>
+
+          <div class="social-icons">
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_86afyky0.json" background="transparent"
+              speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_zvhuj6my.json" background="transparent"
+              speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_zryvfftz.json" background="transparent"
+              speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_5mhyg2hz.json" background="transparent"
+              speed="1" loop autoplay></lottie-player>
+            <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_t1pu7jbg.json" background="transparent"
+              speed="1" loop autoplay></lottie-player>
+
+          </div>
+          <h1> Lack Of Water</h1>
+          
+          <form id="Login" class="input-group">
+            <input type="text" class="input-field" placeholder="Enter Username" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <a href="#">Lost Your Password</a>
+            <button type="submit" class="submit-btn">Login</button>
+          </form>
+          <form id="Register" class="input-group">
+            <input type="text" class="input-field" placeholder="Enter Username" required>
+            <input type="password" class="input-field" placeholder="Enter Password" required>
+            <input type="e-mail" class="input-field" placeholder="E-mail" required>
+            <a href="#">BY registering you agree to the Terms, Data Policy and Cookies Policy.</a>
+            <button type="submit" class="submit-btn">Register</button>
+          </form>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="water-mov">
+          <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_hbYa4Z.json" background="transparent"
+            speed="1" loop autoplay></lottie-player>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <script>
+    var x=document.getElementById("Login");
+    var z=document.getElementById("Register");
+    var y=document.getElementById("btn");
+
+    function register(){
+      x.style.left= "-400px";
+      z.style.left="50px";
+      y.style.left="110px";
+
+
+    }
+    function login(){
+      x.style.left= "50px";
+      z.style.left="500px";
+      y.style.left="0px";
+      
+
+    }
+  </script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
+
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+
+
+</body>
+
+</html>
